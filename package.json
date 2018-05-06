@@ -1,0 +1,40 @@
+{
+  "name": "zylo",
+  "description": "Zylo website",
+  "version": "1.0.0",
+  "author": "Zylo <zylo.codes@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.8.12",
+    "gatsby-image": "^1.0.31",
+    "gatsby-link": "^1.6.8",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.14",
+    "gatsby-plugin-offline": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^1.0.3",
+    "gatsby-plugin-sass": "^1.0.4",
+    "gatsby-plugin-sharp": "^1.6.24",
+    "gatsby-remark-copy-linked-files": "^1.5.25",
+    "gatsby-remark-images": "^1.5.8",
+    "gatsby-source-filesystem": "^1.4.6",
+    "gatsby-transformer-remark": "^1.7.4",
+    "gatsby-transformer-sharp": "^1.6.16",
+    "react-particles-js": "^2.1.0",
+    "react-scroll-up": "^1.3.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.5.2"
+  }
+}
